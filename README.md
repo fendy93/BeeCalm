@@ -1,4 +1,4 @@
-# Overvie
+# Overview
 BeeCalm is an Android mobile and watch app and filled with resources for people suffering from panic attacks. The app consist of feature documentation on each resource and more in-depth instructions on how to use each one and why each is effective. In addition, it will also include more general anxiety-combatting information, not only just a symptom but also an attempt to help the root of the problem.
 
 # Problem and Solution Overview
