@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/list_item_background">
+
+    <wecare.beecalm.MantraSettingsSwipeRefreshLayout
+        android:id="@+id/mantra_setting_swipe_refresh_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/list_item_background">
+
+        <!-- Need to wrap DragListView in another layout for
+            wrap_content to work for some reason -->
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/list_item_background">
+
+            <com.woxthebox.draglistview.DragListView
+                android:id="@+id/mantra_setting_drag_list_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/list_item_background" />
+        </FrameLayout>
+    </wecare.beecalm.MantraSettingsSwipeRefreshLayout>
+</FrameLayout>

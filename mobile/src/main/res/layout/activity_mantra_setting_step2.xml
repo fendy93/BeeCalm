@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/list_item_background"
+    >
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center_horizontal"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:text="Record Audio"
+            android:textSize="40dp"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/textView2" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="15"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="70dp"
+            android:textColor="#000000"
+            android:layout_below="@+id/textView2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Seconds Remaining"
+            android:id="@+id/textView"
+            android:layout_gravity="center_horizontal"
+            android:layout_below="@+id/textView1"
+            android:layout_centerHorizontal="true" />
+
+        <Button android:id="@+id/start"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="start"
+            android:textColor="@color/color0_darker"
+            android:background="@color/color0"
+            android:layout_weight="0.23"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="47dp"
+            android:layout_below="@+id/textView"
+            android:layout_centerHorizontal="true" />
+
+        <Button android:id="@+id/play"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="play"
+            android:textColor="@color/color2_darker"
+            android:background="@color/color2"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="25dp"
+            android:layout_below="@+id/start"
+            android:layout_alignStart="@+id/start" />
+
+    </RelativeLayout>
+</LinearLayout>

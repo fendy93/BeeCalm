@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="230dp"
+    android:background="#ffffff"
+    android:paddingBottom="10dp">
+
+    <ImageView
+        android:id="@+id/imageView_yoga"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:src="@drawable/yoga_bow" />
+
+</LinearLayout>

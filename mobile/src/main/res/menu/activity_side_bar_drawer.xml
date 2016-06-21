@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_setting"
+            android:icon="@mipmap/ic_setting"
+            android:title="Settings" />
+        <item
+            android:id="@+id/nav_breathing"
+            android:icon="@mipmap/ic_breathing"
+            android:title="Breathing" />
+        <item
+            android:id="@+id/nav_mantras"
+            android:icon="@mipmap/ic_mantras"
+            android:title="Mantras" />
+        <item
+            android:id="@+id/nav_simon"
+            android:icon="@mipmap/ic_simon"
+            android:title="Simon Swipe" />
+        <item
+            android:id="@+id/nav_yoga"
+            android:icon="@mipmap/ic_yoga"
+            android:title="Yoga" />
+
+    </group>
+
+</menu>
